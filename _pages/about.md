@@ -24,6 +24,11 @@ I am currently a second-year M.E. student at Wuhan University (expected graduati
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS (Under Revision)</div><img src='images/500x300.png' alt="VS3E Scheme" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+# 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS (Under Revision)</div><img src='images/500x300.png' alt="VS3E scheme" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
 [VS3E: Verifiable Substring-Searchable Symmetric Encryption](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) **(Under Revision)**
 
 **Xijie Ba**, Yifeng Dai, Qin Liu, Jianting Ning*, Qiyu Liu
@@ -33,10 +38,17 @@ I am currently a second-year M.E. student at Wuhan University (expected graduati
 </div>
 </div>
 
-### 📄 Under Review / Major Revision
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TC (Major Revision)</div><img src='images/500x300.png' alt="K-Opt scheme" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- [Optimal Grouping of Encrypted KV Stores for Achieving K-Indistinguishable Data Accesses with Minimum Bandwidth Cost](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) **(TC, Major Revision)**, Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*. 
-  *This paper proposes K-Opt, a dynamic programming-based scheme for encrypted key-value storage that mitigates access pattern leakage by grouping data into K-indistinguishable clusters, minimizing bandwidth overhead while supporting secure dynamic updates.*
+[Optimal Grouping of Encrypted KV Stores for Achieving K-Indistinguishable Data Accesses with Minimum Bandwidth Cost](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) **(Major Revision)**
+
+Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*
+
+[**Project**](https://scholar.google.com) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This paper proposes K-Opt, a dynamic programming-based scheme for encrypted key-value storage that mitigates access pattern leakage by grouping data into K-indistinguishable clusters, minimizing bandwidth overhead while supporting secure dynamic updates. Experimental validation confirms reduced bandwidth costs without compromising security.
+</div>
+</div>
 
 ### 🗂️ Published Conference Papers
 
