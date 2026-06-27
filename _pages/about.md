@@ -19,16 +19,14 @@ redirect_from:
 
 I am currently a second-year M.E. student at Wuhan University (expected graduation: June 2027), supervised by [Prof. Jianting Ning](https://scholar.google.com/citations?user=HSaFwSwAAAAJ&hl=zh-CN), Prof. Qin Liu, and [Prof. Kaitai Liang](https://scholar.google.com/citations?user=_qHKRH4AAAAJ&hl=zh-CN). My research interests center on applied cryptography, with a particular focus on data and cloud security, as well as IoT security. Prior to this, I obtained my B.E. in Software Engineering from Southwest University (Chongqing) in June 2024, where I was fortunate to work under the guidance of [Prof. Zheng Yang](https://scholar.google.com/citations?user=X6csOLgAAAAJ&hl=en) and [Prof. Jianying Zhou](https://scholar.google.com/citations?user=T-Uf3dYAAAAJ&hl=en). To bridge academic knowledge with industrial practice, I completed two six‑month internships: one with the cybersecurity team at Logitech (mentored by [Tana Dubel](https://globalcyberconference.com/conference-speakers/tana-dubel/)) and another at iFLYTEK. These experiences deepened my understanding of real‑world security challenges and strengthened my collaborative skills. I am always open to academic discussions and potential collaborations. Feel free to reach out to me at [kk96500927@gmail.com](mailto:kk96500927@gmail.com) or [baxijie@whu.edu.cn](mailto:baxijie@whu.edu.cn).
 
-<!-- 点赞 + 评论区域（与之前相同，保留） -->
+<!-- 点赞 + 评论区域（若需移至侧边栏，请修改主题布局文件） -->
 <div style="margin-top: 1.5rem; padding: 1rem; border: 1px solid #eee; border-radius: 8px; background: #fafafa;">
   <p style="margin: 0 0 0.5rem 0; font-weight: bold;">
     <span style="font-size: 1.2rem;">❤️</span> 
     <span id="likeCount">0</span> likes · 
     <button id="likeBtn" style="background: #1a73e8; color: white; border: none; padding: 4px 14px; border-radius: 16px; cursor: pointer; font-size: 0.9rem;">👍 Like</button>
   </p>
-  <!-- 国旗展示区 -->
   <div id="flagContainer" style="display: flex; flex-wrap: wrap; align-items: center; gap: 0; margin-bottom: 0.8rem; min-height: 30px;"></div>
-  <!-- 评论区 -->
   <div style="margin-top: 0.8rem;">
     <textarea id="commentInput" rows="2" style="width: 100%; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; padding: 6px; font-size: 0.9rem;" placeholder="Write a comment (anonymous)..."></textarea>
     <button id="commentBtn" style="margin-top: 4px; background: #34a853; color: white; border: none; padding: 4px 16px; border-radius: 16px; cursor: pointer; font-size: 0.9rem;">Post Comment</button>
@@ -36,12 +34,12 @@ I am currently a second-year M.E. student at Wuhan University (expected graduati
   <div id="commentList" style="margin-top: 0.8rem; max-height: 200px; overflow-y: auto; font-size: 0.9rem; border-top: 1px solid #e0e0e0; padding-top: 0.5rem;"></div>
 </div>
 
-<!-- Firebase + 点赞/评论逻辑（与之前相同，请替换配置） -->
+<!-- Firebase + 点赞/评论逻辑（请将下方配置替换为您自己的 Firebase 项目信息） -->
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
 <script>
-  // ========== 你的 Firebase 配置（请替换） ==========
+  // ========== 你的 Firebase 配置（必须替换） ==========
   const firebaseConfig = {
     apiKey: "你的-apiKey",
     authDomain: "你的-authDomain",
@@ -124,8 +122,7 @@ I am currently a second-year M.E. student at Wuhan University (expected graduati
     const user = auth.currentUser;
     if (!user) { alert('Please wait for anonymous login.'); return; }
     const country = await getCountry();
-    const newLikeRef = db.ref('likes').push();
-    newLikeRef.set({
+    db.ref('likes').push({
       uid: user.uid,
       country: country,
       timestamp: firebase.database.ServerValue.TIMESTAMP
@@ -179,41 +176,23 @@ I am currently a second-year M.E. student at Wuhan University (expected graduati
 
 <span class='anchor' id='news'></span>
 # 📰 News
-- **2026.06** – Completed 6‑month internship at Logitech (Cybersecurity Engineering).
-- **2025.12** – Awarded Outstanding Graduate Student, Wuhan University.
-- **2024.09** – Started M.E. in Cyber Science at Wuhan University.
-- **2024.06** – Received B.E. in Software Engineering from Southwest University.
-- **2023.07** – Completed 6‑month internship at iFLYTEK (Front‑End Development).
+
+<!-- News 内容暂时留空，待后续更新 -->
 
 ---
 
-<span class='anchor' id='honors-and-awards'></span>
-# 🎖️ Honors and Awards
-- **2025** – Outstanding Graduate Student, Wuhan University
-- **2025** – Social Activist, Wuhan University
-- **2025** – National Third Prize, "Challenge Cup" National College Student Competition (Enhanced e‑Passport)
-- **2025** – Provincial Grand Prize, "Challenge Cup" Competition (Enhanced e‑Passport)
-- **2025** – University Grand Prize, "Challenge Cup" Competition (Enhanced e‑Passport)
-- **2024** – Outstanding Undergraduate Graduate, Southwest University
-- **2024** – National Second Prize, National Cryptography Technology Competition (Embedded Secure Element OS)
-- **2024** – Outstanding Freshman Scholarship, Wuhan University
-- **2023** – National Third Prize, National Cryptography Technology Competition (Lightweight Signature for PLCs)
-- **2023** – National Encouragement Scholarship of China
-- **2023** – National Second Prize, Chinese Collegiate Computing Competition (HanYi Pavilion VR Museum)
-- **2023** – Merit Student, Southwest University
-- **2022** – First‑Class Scholarship, Southwest University
-- **2022** – Second Prize, Chinese Mathematics Competitions for College Students
-- **2022** – Academic Excellence Award, Southwest University
-- **2022** – Merit Student, Southwest University
-- **2021** – First‑Class Scholarship, Southwest University
-- **2021** – Second Prize, China Undergraduate Mathematical Contest in Modeling
-- **2021** – Volunteer Service Award, Southwest University
-- **2021** – Merit Student, Southwest University
+<span class='anchor' id='educations'></span>
+# 📖 Educations
+
+- **2024.09 – 2027.06 (expected)**, M.E. in Cyber Science, Wuhan University (GPA: 90.42/100)
+- **2020.09 – 2024.06**, B.E. in Software Engineering, Southwest University & Deakin University (GPA: 87.08/100)
+- **Language**: English (IELTS 7.0: Listening 8.0, Reading 7.0, Writing 7.0, Speaking 6.5)
 
 ---
 
-<span class='anchor' id='internship'></span>
+<span class='anchor' id='internships'></span>
 # 💻 Internships
+
 - **2026.06** – Logitech (6 months) – Cybersecurity Engineering & Solutions
 - **2023.07** – iFLYTEK (6 months) – Front‑End Development
 
@@ -290,6 +269,33 @@ Jiaqi Yang, Jun Xian Chia, **Xijie Ba**, Jianying Zhou*, Zheng Yang*
 - This paper proposes a log-structured and authenticated retrieval framework for dynamic RAG systems, leveraging TEE to ensure integrity and authenticity of query results. The scheme integrates log-structured merge trees with cryptographic accumulators to support efficient and verifiable dynamic updates.
 </div>
 </div>
+
+---
+
+<span class='anchor' id='honors-and-awards'></span>
+# 🎖️ Honors and Awards
+
+- **2025** – Outstanding Graduate Student, Wuhan University
+- **2025** – Social Activist, Wuhan University
+- **2025** – National Third Prize, "Challenge Cup" National College Student Competition (Enhanced e‑Passport)
+- **2025** – Provincial Grand Prize, "Challenge Cup" Competition (Enhanced e‑Passport)
+- **2025** – University Grand Prize, "Challenge Cup" Competition (Enhanced e‑Passport)
+- **2024** – Outstanding Undergraduate Graduate, Southwest University
+- **2024** – National Second Prize, National Cryptography Technology Competition (Embedded Secure Element OS)
+- **2024** – Outstanding Freshman Scholarship, Wuhan University
+- **2023** – National Third Prize, National Cryptography Technology Competition (Lightweight Signature for PLCs)
+- **2023** – National Encouragement Scholarship of China
+- **2023** – National Second Prize, Chinese Collegiate Computing Competition (HanYi Pavilion VR Museum)
+- **2023** – Merit Student, Southwest University
+- **2022** – First‑Class Scholarship, Southwest University
+- **2022** – Second Prize, Chinese Mathematics Competitions for College Students
+- **2022** – Academic Excellence Award, Southwest University
+- **2022** – Merit Student, Southwest University
+- **2021** – First‑Class Scholarship, Southwest University
+- **2021** – Second Prize, China Undergraduate Mathematical Contest in Modeling
+- **2021** – Volunteer Service Award, Southwest University
+- **2021** – Merit Student, Southwest University
+
 ---
 
 # ⚙️ Project Experience
