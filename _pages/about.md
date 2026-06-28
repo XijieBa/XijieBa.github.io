@@ -50,20 +50,20 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 
 <!-- 按时间从新到旧排列 -->
 
-<!-- TeeLSM-RAG: 无图片，文字占满 -->
+<!-- TeeLSM-RAG: 无图片，文字占满，无链接（未发表） -->
 <div class='paper-box'><div class='paper-box-text' style="width: 100%;" markdown="1">
 
-[TeeLSM-RAG: Authenticated Retrieval with Log-Structured Indexing for RAG]()
+**TeeLSM-RAG: Authenticated Retrieval with Log-Structured Indexing for RAG** **(In Progress)**
 
 **Xijie Ba**, Jianting Ning, Kaitai Liang, Qin Liu*
 </div>
 </div>
 
-<!-- VS3E: 有图片 -->
+<!-- VS3E: 有图片，无链接（未发表，Under Revision） -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS (Under Revision)</div><img src='images/截屏2026-06-28 11.53.04.png' alt="VS3E scheme" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[VS3E: Verifiable Substring-Searchable Symmetric Encryption](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) **(Under Revision)**
+**VS3E: Verifiable Substring-Searchable Symmetric Encryption** **(TIFS Under Revision)**
 
 **Xijie Ba**, Yifeng Dai, Qin Liu, Jianting Ning*, Qiyu Liu
 
@@ -71,20 +71,19 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 </div>
 </div>
 
-<!-- K-Opt: 有图片 -->
+<!-- K-Opt: 有图片，无链接（未发表，Major Revision） -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TC (Major Revision)</div><img src='images/截屏2026-06-28 11.53.33.png' alt="K-Opt scheme" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Optimal Grouping of Encrypted KV Stores for Achieving K-Indistinguishable Data Accesses with Minimum Bandwidth Cost](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) **(Major Revision)**
+**Optimal Grouping of Encrypted KV Stores for Achieving K-Indistinguishable Data Accesses with Minimum Bandwidth Cost** **(TC Major Revision)**
 
 Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*
 
-[**Project**](https://scholar.google.com) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This paper proposes K-Opt, a dynamic programming-based scheme for encrypted key-value storage that mitigates access pattern leakage by grouping data into K-indistinguishable clusters, minimizing bandwidth overhead while supporting secure dynamic updates. Experimental validation confirms reduced bandwidth costs without compromising security.
 </div>
 </div>
 
-<!-- 已发表三篇，均有图片 -->
+<!-- 已发表三篇，均有图片和链接 -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Inscrypt 2025</div><img src='images/截屏2026-06-28 11.24.34.png' alt="Leakage-Abuse Attack" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
