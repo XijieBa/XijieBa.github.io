@@ -17,14 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a second-year M.E. student at Wuhan University (expected graduation: June 2027), supervised by [Prof. Jianting Ning](https://scholar.google.com/citations?user=HSaFwSwAAAAJ&hl=zh-CN), Prof. Qin Liu, and [Prof. Kaitai Liang](https://scholar.google.com/citations?user=_qHKRH4AAAAJ&hl=zh-CN). My research interests center on applied cryptography, with a particular focus on data and cloud security, as well as IoT security. Prior to this, I obtained my B.E. in Software Engineering from Southwest University (Chongqing) in June 2024, where I was fortunate to work under the guidance of [Prof. Zheng Yang](https://scholar.google.com/citations?user=X6csOLgAAAAJ&hl=en) and [Prof. Jianying Zhou](https://scholar.google.com/citations?user=T-Uf3dYAAAAJ&hl=en). To bridge academic knowledge with industrial practice, I completed two six‑month internships: one with the cybersecurity team at Logitech (mentored by [Tana Dubel](https://globalcyberconference.com/conference-speakers/tana-dubel/)) and another at iFLYTEK. These experiences deepened my understanding of real‑world security challenges and strengthened my collaborative skills. I am always open to academic discussions and potential collaborations. Feel free to reach out to me at [kk96500927@gmail.com](mailto:kk96500927@gmail.com) or [baxijie@whu.edu.cn](mailto:baxijie@whu.edu.cn).
+I am currently a second-year M.E. student at Wuhan University (expected graduation: June 2027), supervised by [Prof. Jianting Ning](https://scholar.google.com/citations?user=HSaFwSwAAAAJ&hl=zh-CN), Prof. Qin Liu, and [Prof. Kaitai Liang](https://scholar.google.com/citations?user=_qHKRH4AAAAJ&hl=zh-CN). My research interests center on applied cryptography, with a particular focus on data and cloud security, as well as IoT security. Prior to this, I obtained my B.E. in Software Engineering from Southwest University (Chongqing) in June 2024, where I was fortunate to work under the guidance of [Prof. Zheng Yang](https://scholar.google.com/citations?user=X6csOLgAAAAJ&hl=en) and [Prof. Jianying Zhou](https://scholar.google.com/citations?user=T-Uf3dYAAAAJ&hl=en). To bridge academic knowledge with industrial practice, I completed two six‑month internships: one with the Cybersecurity Engineering & Solutions team at Logitech, where I greatly enjoyed the collaborative environment with friends around the world, and another at iFLYTEK. These experiences deepened my understanding of real‑world security challenges and strengthened my collaborative skills. I am always open to academic discussions and potential collaborations. Feel free to reach out to me at [kk96500927@gmail.com](mailto:kk96500927@gmail.com) or [baxijie@whu.edu.cn](mailto:baxijie@whu.edu.cn).
 
 ---
 
 <span class='anchor' id='news'></span>
 # 📰 News
 
-<!-- News 内容暂时留空，待后续更新 -->
+- **2026.06**: 🎉 Started a six‑month internship with the Cybersecurity Engineering & Solutions team at Logitech.
 
 ---
 
@@ -48,10 +48,17 @@ I am currently a second-year M.E. student at Wuhan University (expected graduati
 <span class='anchor' id='publications'></span>
 # 📝 Publications
 
-<!-- 按时间从新到旧排列，所有论文统一使用 paper-box 格式 -->
+<!-- 按时间从新到旧排列，所有论文统一使用 paper-box 格式，仅已发表论文保留图片 -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS (Under Revision)</div><img src='images/500x300.png' alt="VS3E scheme" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-text' markdown="1">
+
+[TeeLSM-RAG: Authenticated Retrieval with Log-Structured Indexing for RAG]() **(In Progress)**
+
+**Xijie Ba**, Jianting Ning, Kaitai Liang, Qin Liu*
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-text' markdown="1">
 
 [VS3E: Verifiable Substring-Searchable Symmetric Encryption](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) **(Under Revision)**
 
@@ -61,8 +68,7 @@ I am currently a second-year M.E. student at Wuhan University (expected graduati
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TC (Major Revision)</div><img src='images/500x300.png' alt="K-Opt scheme" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'><div class='paper-box-text' markdown="1">
 
 [Optimal Grouping of Encrypted KV Stores for Achieving K-Indistinguishable Data Accesses with Minimum Bandwidth Cost](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206) **(Major Revision)**
 
@@ -103,17 +109,6 @@ Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*
 Jiaqi Yang, Jun Xian Chia, **Xijie Ba**, Jianying Zhou*, Zheng Yang*
 
 - This paper introduces an optimized UHF tree for intermittent authentication in Cyber-Physical Systems, reducing synchronization overhead during prolonged interruptions. We implement a lightweight signature scheme on an Allen Bradley PLC using efficient pseudo-Mersenne arithmetic, demonstrating the first practical feasibility of such protocols on industrial hardware with improved performance.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">In Progress</div><img src='images/500x300.png' alt="TeeLSM-RAG" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[TeeLSM-RAG: Authenticated Retrieval with Log-Structured Indexing for RAG]() **(In Progress)**
-
-**Xijie Ba**, Jianting Ning, Kaitai Liang, Qin Liu*
-
-- This paper proposes a log-structured and authenticated retrieval framework for dynamic RAG systems, leveraging TEE to ensure integrity and authenticity of query results. The scheme integrates log-structured merge trees with cryptographic accumulators to support efficient and verifiable dynamic updates.
 </div>
 </div>
 
