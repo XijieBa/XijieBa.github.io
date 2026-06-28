@@ -145,6 +145,7 @@ Jiaqi Yang, Jun Xian Chia, **Xijie Ba**, Jianying Zhou*, Zheng Yang*
 
 ---
 
+<span class='anchor' id='project-experience'></span>
 # ⚙️ Project Experience
 
 - **Research and Application of Technologies for Virtual Currency** (2024–2025)  
