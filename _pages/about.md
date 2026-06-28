@@ -79,7 +79,7 @@ Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Inscrypt 2025</div><img src='images/500x300.png' alt="Leakage-Abuse Attack" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Inscrypt 2025</div><img src='截屏2026-06-28 11.24.34.png' alt="Leakage-Abuse Attack" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Leakage-Abuse Attack Against Substring-SSE with Partially Known Dataset](https://link.springer.com/chapter/10.1007/978-981-95-6206-0_28) **Inscrypt 2025**
@@ -90,7 +90,7 @@ Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MSN 2023</div><img src='images/500x300.png' alt="Zone Authentication" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MSN 2023</div><img src='截屏2026-06-28 11.27.52.png' alt="Zone Authentication" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A Lightweight Zone Authentication Scheme with Auto-Refreshing Pseudonyms for C-V2X](https://ieeexplore.ieee.org/abstract/document/10566958) **MSN 2023**
@@ -101,7 +101,7 @@ Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SecureComm 2023</div><img src='images/500x300.png' alt="PLC Authentication" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SecureComm 2023</div><img src='截屏2026-06-28 11.31.16.png' alt="PLC Authentication" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Lightweight Intermittent Message Authentication for Programmable Logic Controller](https://link.springer.com/chapter/10.1007/978-3-031-64948-6_12) **SecureComm 2023**
