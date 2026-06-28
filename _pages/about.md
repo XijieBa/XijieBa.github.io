@@ -40,8 +40,8 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 <span class='anchor' id='internships'></span>
 # 💻 Internships
 
-- **2026.06 – 2026.11 (expected)** – Logitech (6 months) – Cybersecurity Engineering & Solutions
-- **2023.02 - 2023.07** – iFLYTEK (6 months) – Front‑End Development
+- **2026.06 – 2026.11 (expected)** – Logitech – Cybersecurity Engineering & Solutions
+- **2023.02 - 2023.07** – iFLYTEK – Front‑End Development
 
 ---
 
@@ -53,17 +53,17 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 <!-- TeeLSM-RAG: 无图片，文字占满，无链接（未发表） -->
 <div class='paper-box'><div class='paper-box-text' style="width: 100%;" markdown="1">
 
-**TeeLSM-RAG: Authenticated Retrieval with Log-Structured Indexing for RAG** **(In Progress)**
+**TeeLSM-RAG: Authenticated Retrieval with Log-Structured Indexing for RAG**
 
 **Xijie Ba**, Jianting Ning, Kaitai Liang, Qin Liu*
 </div>
 </div>
 
 <!-- VS3E: 有图片，无链接（未发表，Under Revision） -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS (Under Revision)</div><img src='images/截屏2026-06-28 11.53.04.png' alt="VS3E scheme" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS (Under Review)</div><img src='images/截屏2026-06-28 11.53.04.png' alt="VS3E scheme" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**VS3E: Verifiable Substring-Searchable Symmetric Encryption** **(TIFS Under Revision)**
+**VS3E: Verifiable Substring-Searchable Symmetric Encryption** **(TIFS Under Review)**
 
 **Xijie Ba**, Yifeng Dai, Qin Liu, Jianting Ning*, Qiyu Liu
 
