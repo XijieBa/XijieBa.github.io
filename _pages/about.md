@@ -53,7 +53,7 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 <!-- TeeLSM-RAG: 无图片，文字占满，无链接（未发表） -->
 <div class='paper-box'><div class='paper-box-text' style="width: 100%;" markdown="1">
 
-**TeeLSM-RAG: Authenticated Retrieval with Log-Structured Indexing for RAG**
+**Attested Dynamic State Commitments for Confidential RAG**
 
 **Xijie Ba**, Jianting Ning, Kaitai Liang, Qin Liu*
 </div>
@@ -122,6 +122,8 @@ Jiaqi Yang, Jun Xian Chia, **Xijie Ba**, Jianying Zhou*, Zheng Yang*
 <span class='anchor' id='honors-and-awards'></span>
 # 🎖️ Honors and Awards
 
+- **2026** – Excellence Scholarship, Wuhan University
+- **2026** – Extraordinary Scholarship, Wuhan University
 - **2025** – Outstanding Graduate Student, Wuhan University
 - **2025** – Social Activist, Wuhan University
 - **2025** – National Third Prize, "Challenge Cup" National College Student Competition (Enhanced e‑Passport)
