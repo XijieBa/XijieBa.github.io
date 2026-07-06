@@ -53,7 +53,7 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 <!-- TeeLSM-RAG: 无图片，文字占满，无链接（未发表） -->
 <div class='paper-box'><div class='paper-box-text' style="width: 100%;" markdown="1">
 
-**Attested Dynamic State Commitments for Confidential RAG**
+**Manuscript: Attested Dynamic State Commitments for Confidential RAG**
 
 **Xijie Ba**, Jianting Ning, Kaitai Liang, Qin Liu*
 </div>
