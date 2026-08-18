@@ -50,12 +50,15 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 
 <!-- 按时间从新到旧排列 -->
 
-<!-- TeeLSM-RAG: 无图片，文字占满，无链接（未发表） -->
-<div class='paper-box'><div class='paper-box-text' style="width: 100%;" markdown="1">
+<!-- ADRC: 有图片，无链接，无链接（未发表） -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Usenix 2027 in Preparation</div><img src='images/system_model.png' alt="ADRC scheme" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-**Manuscript: Attested Dynamic State Commitments for Confidential RAG**
+**ADRC: Attested Dynamic RAG State Commitments**
 
-**Xijie Ba**, Jianting Ning, Kaitai Liang, Qin Liu*
+**Xijie Ba**, Jianting Ning, Qin Liu*, Kaitai Liang*
+
+- This paper presents ADRC, a verifiable state‑commitment framework for RAG pipelines in the untrusted cloud model, using an append‑only transparency log for freshness and an out‑of‑core LSM‑tree for dynamic updates. Decoupled TEE enclaves and contextual metadata binding mitigate state rollback and ciphertext relocation. Evaluation indicates update overhead approaches constant‑time log append and retrieval latency stays practical.
 </div>
 </div>
 
@@ -67,19 +70,19 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 
 **Xijie Ba**, Yifeng Dai, Qin Liu, Jianting Ning*, Qiyu Liu
 
-- This paper introduces the first verifiable substring-SSE scheme, which operates under the malicious server model. By leveraging a Merkle tree to prevent false positives and an RSA accumulator to eliminate false negatives, the scheme ensures the integrity of query results. The scheme employs blinding techniques to defend leakage abuse attacks. Experiments demonstrate that the client-side computational and spatial overhead remains within practical limits.
+- This paper presents the first verifiable substring‑SSE scheme designed for the malicious server model. The construction integrates a Merkle tree to resist false positives and an RSA accumulator to resist false negatives, thereby providing result integrity. Blinding techniques are incorporated to mitigate leakage‑abuse attacks. Experimental evaluation indicates that the client‑side computational and storage costs remain within practical bounds.
 </div>
 </div>
 
-<!-- K-Opt: 有图片，无链接（未发表，Major Revision） -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TC (Major Revision)</div><img src='images/截屏2026-06-28 11.53.33.png' alt="K-Opt scheme" width="100%"></div></div>
+<!-- K-Opt: 有图片，无链接（未发表，Minor Revision） -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TC (Minor Revision)</div><img src='images/截屏2026-06-28 11.53.33.png' alt="K-Opt scheme" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Optimal Grouping of Encrypted KV Stores for Achieving K-Indistinguishable Data Accesses with Minimum Bandwidth Cost** **(TC Major Revision)**
+**Optimal Grouping of Encrypted KV Stores for Achieving K-Indistinguishable Data Accesses with Minimum Bandwidth Cost** **(TC Minor Revision)**
 
 Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*
 
-- This paper proposes K-Opt, a dynamic programming-based scheme for encrypted key-value storage that mitigates access pattern leakage by grouping data into K-indistinguishable clusters, minimizing bandwidth overhead while supporting secure dynamic updates. Experimental validation confirms reduced bandwidth costs without compromising security.
+- This paper proposes K‑Opt, a dynamic programming‑based scheme for encrypted key‑value storage. The scheme groups data into K‑indistinguishable clusters to reduce access pattern leakage and supports dynamic updates. Experimental results indicate a reduction in bandwidth overhead while the security properties remain preserved.
 </div>
 </div>
 
@@ -91,7 +94,7 @@ Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*
 
 **Xijie Ba**, Qin Liu*, Xiaohong Li, Jianting Ning
 
-- This paper proposes the first leakage-abuse attack against substring-SSE under partially-known-data settings. By extending the LEAP framework with a matrix-based correlation technique, we efficiently recover plaintext from encrypted suffix trees using known data fragments. Experiments achieve 98.32% recovery with 50% auxiliary knowledge, exposing critical vulnerabilities in existing schemes and highlighting the need for leakage-resilient designs.
+- This paper presents a leakage‑abuse attack against substring‑SSE in the partially‑known‑data setting. The attack extends the LEAP framework with a matrix‑based correlation technique to recover plaintext from encrypted suffix trees using known data fragments. Experiments recover 98.32% of the plaintext with 50% auxiliary knowledge. The results point to vulnerabilities in existing schemes and suggest the need for leakage‑resilient designs.
 </div>
 </div>
 
@@ -102,7 +105,7 @@ Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*
 
 **Xijie Ba**, Jiaqi Yang, Cong Ma
 
-- This paper proposes zone authentication for C-V2X communications, where vehicles use geographic zone-tied pseudonyms for message signing. Our scheme employs auto-refreshing pseudonyms and hierarchical authorization to reduce overhead while maintaining confidentiality. Evaluation shows superior efficiency over existing methods.
+- This paper proposes zone authentication for C‑V2X communications, where vehicles use geographic zone‑tied pseudonyms for message signing. The scheme employs auto‑refreshing pseudonyms and hierarchical authorization to reduce overhead and provide confidentiality. Evaluation indicates that the scheme offers efficiency gains over existing methods.
 </div>
 </div>
 
@@ -113,7 +116,7 @@ Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*
 
 Jiaqi Yang, Jun Xian Chia, **Xijie Ba**, Jianying Zhou*, Zheng Yang*
 
-- This paper introduces an optimized UHF tree for intermittent authentication in Cyber-Physical Systems, reducing synchronization overhead during prolonged interruptions. We implement a lightweight signature scheme on an Allen Bradley PLC using efficient pseudo-Mersenne arithmetic, demonstrating the first practical feasibility of such protocols on industrial hardware with improved performance.
+- This paper introduces an optimized UHF tree for intermittent authentication in Cyber‑Physical Systems. The tree reduces synchronization overhead during prolonged interruptions. A lightweight signature scheme is implemented on an Allen Bradley PLC using efficient pseudo‑Mersenne arithmetic. This implementation demonstrates the practical feasibility of such protocols on industrial hardware and shows performance improvements.
 </div>
 </div>
 
