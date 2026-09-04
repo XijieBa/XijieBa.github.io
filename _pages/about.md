@@ -17,14 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, expected graduation: June 2027), supervised by **[Prof. Jianting Ning](https://scholar.google.com/citations?user=HSaFwSwAAAAJ&hl=zh-CN), Prof. Qin Liu**, and **[Prof. Kaitai Liang](https://scholar.google.com/citations?user=_qHKRH4AAAAJ&hl=zh-CN)**. My research interests center on **applied cryptography**, with a particular focus on data and cloud security, as well as IoT security. Prior to this, I obtained my B.E. in Software Engineering from Southwest University (Chongqing) in June 2024, where I was fortunate to work under the guidance of **[Prof. Zheng Yang](https://scholar.google.com/citations?user=X6csOLgAAAAJ&hl=en)** and **[Prof. Jianying Zhou](https://scholar.google.com/citations?user=T-Uf3dYAAAAJ&hl=en)**. To bridge academic knowledge with industrial practice, I completed two six‑month internships: one with the Cybersecurity Engineering & Solutions team at **Logitech**, where I greatly enjoyed the collaborative environment with friends around the world, and another at **iFLYTEK**. These experiences deepened my understanding of real‑world security challenges and strengthened my collaborative skills. I am always open to academic discussions and collaborations. Feel free to reach out to me at [kk96500927@gmail.com](mailto:kk96500927@gmail.com) or [baxijie@whu.edu.cn](mailto:baxijie@whu.edu.cn).
+I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, expected graduation: June 2027), supervised by **[Prof. Jianting Ning](https://scholar.google.com/citations?user=HSaFwSwAAAAJ&hl=zh-CN), Prof. Qin Liu**, and **[Prof. Kaitai Liang](https://scholar.google.com/citations?user=_qHKRH4AAAAJ&hl=zh-CN)**. My research interests center on **applied cryptography**, with a particular focus on data and cloud security, as well as IoT security. Prior to this, I obtained my B.E. in Software Engineering from Southwest University (Chongqing) in June 2024, where I was fortunate to work under the guidance of **[Prof. Zheng Yang](https://scholar.google.com/citations?user=X6csOLgAAAAJ&hl=en)** and **[Prof. Jianying Zhou](https://scholar.google.com/citations?user=T-Uf3dYAAAAJ&hl=en)**. To bridge academic knowledge with industrial practice, I completed two six‑month internships: one with the Cybersecurity Engineering & Solutions team at **Logitech**, where I greatly enjoyed the collaborative environment with friends around the world, and another at **iFLYTEK**. These experiences deepened my understanding of real‑world security challenges and strengthened my collaborative skills. I am always open to academic discussions and collaborations. Feel free to reach out to me at [baxijie.me@gmail.com](mailto:baxijie.me@gmail.com) or [baxijie@whu.edu.cn](mailto:baxijie@whu.edu.cn).
 
 ---
 
 <span class='anchor' id='news'></span>
 # 📰 News
 
-- **2026.06**: 🎉 Started a six‑month internship with the Cybersecurity Engineering & Solutions team at Logitech.
+- **2026.06**: 🎉 Started internship with the Cybersecurity Engineering & Solutions team at Logitech.
 
 ---
 
@@ -51,7 +51,7 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 <!-- 按时间从新到旧排列 -->
 
 <!-- ADRC: 有图片，无链接，无链接（未发表） -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Usenix 2027 in Preparation</div><img src='images/system_model.png' alt="ADRC scheme" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Usenix FAST 2027 (Under Review)</div><img src='images/截屏2026-09-04 10.27.28.png' alt="ADRC scheme" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ADRC: Attested Dynamic RAG State Commitments**
