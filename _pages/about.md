@@ -56,7 +56,7 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 
 **ADRC: Attested Dynamic RAG State Commitments**
 
-**Xijie Ba**, Jianting Ning, Qin Liu*, Kaitai Liang*
+**Xijie Ba**, Jianting Ning, Qin Liu*, Kaitai Liang
 
 - This paper presents ADRC, a verifiable state‑commitment framework for RAG pipelines in the untrusted cloud model, using an append‑only transparency log for freshness and an out‑of‑core LSM‑tree for dynamic updates. Decoupled TEE enclaves and contextual metadata binding mitigate state rollback and ciphertext relocation. Evaluation indicates update overhead approaches constant‑time log append and retrieval latency stays practical.
 </div>
@@ -74,11 +74,11 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 </div>
 </div>
 
-<!-- K-Opt: 有图片，无链接（未发表，Minor Revision） -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TC (Minor Revision)</div><img src='images/截屏2026-06-28 11.53.33.png' alt="K-Opt scheme" width="100%"></div></div>
+<!-- K-Opt: 有图片，无链接 -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TC</div><img src='images/截屏2026-06-28 11.53.33.png' alt="K-Opt scheme" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Optimal Grouping of Encrypted KV Stores for Achieving K-Indistinguishable Data Accesses with Minimum Bandwidth Cost** **(TC Minor Revision)**
+**Optimal Grouping of Encrypted KV Stores for Achieving K-Indistinguishable Data Accesses with Minimum Bandwidth Cost** **IEEE TC**
 
 Qiuyu Hu, **Xijie Ba**, Qin Liu*, Zhenyu Chai, Peng Li*
 
