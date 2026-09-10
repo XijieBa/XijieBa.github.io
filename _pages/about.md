@@ -24,8 +24,8 @@ I am currently a second-year M.E. student at **Wuhan University** (2027QS: 165, 
 <span class='anchor' id='news'></span>
 # 📰 News
 
-- **2026.06**: 🎉 Started internship with the Cybersecurity Engineering & Solutions team at Logitech.
 - **2026.09**: 🎉 Co-authored paper *Optimal Grouping of Encrypted KV Stores for Achieving K-Indistinguishable Data Accesses with Minimum Bandwidth Cost* has been accepted by IEEE TC.
+- **2026.06**: 🎉 Started internship with the Cybersecurity Engineering & Solutions team at Logitech.
 
 ---
 
